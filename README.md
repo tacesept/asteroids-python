@@ -20,39 +20,22 @@ A simple Python implementation of the classic Asteroids arcade game built with `
 
 ```bash
 git clone <repo-url>
-cd asteroids
+cd asteroids-python
 ```
 
 2. Create a virtual environment:
 
 ```bash
-python -m venv .venv
+uv venv
 source .venv/bin/activate
-```
-
-3. Install dependencies:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-If you do not have a `requirements.txt`, install directly:
-
-```bash
-python -m pip install pygame==2.6.1
 ```
 
 ## Run the game
 
-From the repository root:
-
 ```bash
-python main.py
+uv run main.py 
 ```
 
-```bash
-python main.py
-```
 
 ## Project structure
 
